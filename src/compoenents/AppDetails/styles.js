@@ -15,25 +15,37 @@ export const Container = styled.div`
 
 export const Illustration = styled.div`
 flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+img{
+    width: 100%;
+    height: 100%;
+}
 
 `;
 
 export const Description = styled.div`
 display: flex;
 align-items: center;
-justify-content:space-around;
+justify-content:center;
+margin-left: 40px;
 flex-direction: column;
 h2{
-    padding: 20px 0;
+    padding: 5px 0;
+    
 
 }
 flex: 1;
 @media (max-width:700px) {
+    margin-left:0;
         flex-direction: column;
-        margin-left: 40px;
+        
         h2{
             padding: 20px;
-            text-align: center
+            text-align: center;
+            font-size: 18px;
+
 
         }
     }
