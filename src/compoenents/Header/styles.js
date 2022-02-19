@@ -54,7 +54,7 @@ export const Content = styled.div`
            }
        }
        .Description{
-           padding: 0px 20px 10px 20px;
+           padding: 0px 20px 40px 20px;
            width: 100%;
            display:flex;
            align-items: center;

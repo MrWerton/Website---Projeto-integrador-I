@@ -11,11 +11,10 @@ const Header = () => {
           Toddo
         </h1>
         <img src={LogoImg} alt="Logo of app, is a scheduling"/>
-
         </div>
         <div class="Description">
           <p>
-          Um app para organizar suas tarefas
+          Um app para organizar suas tarefas!
           </p>
         </div>
       </Content>
