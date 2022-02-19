@@ -89,7 +89,9 @@ export const Illustration = styled.div`
        padding: 2px;
        
        img{
-           max-width: 400px;
+           padding: 10px;
+           width: 100%;
+           height: 100%;
            position: relative;
            bottom: -20px;
        }
