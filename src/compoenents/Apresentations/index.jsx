@@ -15,7 +15,7 @@ const Justificativa = {
 }
 const Objetivos = {
   title: 'Objetivos', 
-  description: 'O objetivo do projeto é desenvolver uma aplicação mobile para gerenciamento de tarefas (todo). A criação do app será totalmente feita na pilha js para aplicações fullstack. O objetivo é abordar a lógica por trás de uma aplicação completa. Desde a criação dos model no bd, até o consumo da api no front-end. A metodologia de trabalho será a scrum. Sendo que haverá dois dias na semana para “daily”. Optamos por fazer um “todo” por ser possível lidar com a base da criação de um aplicativo, o CRUD! ',
+  description: 'O objetivo do projeto é desenvolver uma aplicação mobile para gerenciamento de tarefas (todo). A criação do app será totalmente feita na pilha js para aplicações fullstack. O objetivo é abordar a lógica por trás de uma aplicação completa. Ou seja, nós abordaremos a modelagem do banco de dados, a criação da api, a constução da interface, o consumo da api e também abordaremos o processo para autentificação de um usuário. No final do projeto, nós esperamos está ciente do procedimento para a construção de uma aplicação completa.',
   Img: PersonIII
 }
 const Apresentations = () => {
