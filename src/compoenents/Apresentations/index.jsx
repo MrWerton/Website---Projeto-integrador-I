@@ -5,7 +5,7 @@ import PersonII from '../../assets/Person2.svg'
 import PersonIII from '../../assets/Person3.svg'
 const Resumo = {
   title: 'Resumo', 
-  description: 'O presente projeto visa a criação de uma agenda eletrônica que tem por finalidade ajudar o usuario na organização de suas tarefas diárias. Consideramos relevante esse projeto ,em primeiro lugar, pelo fato de que na atualidade a grande maioria das pessoas tem acesso à tecnologia e, em segundo lugar, por proporcionar àqueles que fizerem uso dessa ferramenta o exercício da disciplina ao avaliarem se suas metas foram atingidas. Enfim, forma um projeto simples, porém de grande utilidade.',
+  description: '',//add teu texto aqui @araujo
   Img: PersonI
 }
 const Justificativa = {
@@ -22,15 +22,17 @@ const Apresentations = () => {
   return (
     <Container>
       <div>
-          <Apresentation className="itemI" Img={Resumo.Img} title={Resumo.title} description={Resumo.description}/>
-      </div>
-      <div style={{justifyContent: 'flex-end'}}>
-       <Apresentation reverse={true} className="ItemIII" Img={Objetivos.Img} title={Objetivos.title} description={Objetivos.description}/>
-      </div>
-      <div>
 
-         <Apresentation  className="ItemII" Img={Justificativa.Img} title={Justificativa.title} description={Justificativa.description}/>
+      {/* o Apresentation vem aqui @Araujo*/}
       </div>
+      
+      <div style={{justifyContent: 'flex-end'}}>
+         <Apresentation reverse={true} className="ItemIII" Img={Objetivos.Img} title={Objetivos.title} description={Objetivos.description}/>
+      </div>
+    <div>
+
+        {/* O apresentation vem aqui @Gabrile*/}
+    </div>
       
     </Container>
   );

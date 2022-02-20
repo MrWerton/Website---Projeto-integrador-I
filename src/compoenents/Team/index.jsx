@@ -9,9 +9,9 @@ const Team = () => {
     <Container>
       <h2>Nosso Time</h2>
       <div>
-        <Card name="Araujo"  Img={'https://github.com/mrwerton.png'} />
+        {/*o card vem aqui @Araujo*/}
         <Card name="Werton Pereira"  Img={'https://github.com/mrwerton.png'} />
-        <Card name="Gabriele"  Img={'https://github.com/mrwerton.png'} />
+       {/* O card vem aqui @Gabrile */}
       </div>
     </Container>
   );

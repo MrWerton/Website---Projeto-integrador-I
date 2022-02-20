@@ -8,8 +8,8 @@ const ProjectLinks = () => {
   const FigmaAnime = <Animation anime={figma}/>
   return (
     <Container>
-     <BtnLink title="Design"  link='https://github.com/' Img={FigmaAnime}/>
-     <BtnLink title="Repositório"  link='https://github.com/'  Img={gitHubAnime}/>
+     <BtnLink title="Design"  link='https://www.figma.com/file/zn24Q4LZYWjwTZ5ncBLL8J/Toddo?node-id=0%3A1/' Img={FigmaAnime}/>
+     <BtnLink title="Repositório"  link='https://github.com/MrWerton/Toddo'  Img={gitHubAnime}/>
     </Container>
   );
 };

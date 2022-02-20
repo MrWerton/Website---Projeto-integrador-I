@@ -16,6 +16,6 @@ export const Container = styled.div`
         color: ${Colors.primary}
     }
     a{
-        text-decoration: none
+        text-decoration: none;
     }
 `;
