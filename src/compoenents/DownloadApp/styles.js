@@ -52,7 +52,6 @@ export const Description = styled.div`
     flex: 1;
     @media (max-width: 700px) {
         flex-direction: column;
-        margin-left: 40px;
         h2 {
             padding: 20px;
             text-align: center;

@@ -33,6 +33,8 @@ export const Description = styled.div`
     flex-direction: column;
     h2 {
         padding: 5px 0;
+        font-size: 48px;
+        text-align: center;
         color: ${Colors.textDark};
     }
     flex: 1;
@@ -44,7 +46,7 @@ export const Description = styled.div`
             color: ${Colors.textDark};
             padding: 20px;
             text-align: center;
-            font-size: 18px;
+            font-size: 24px;
         }
     }
 `;

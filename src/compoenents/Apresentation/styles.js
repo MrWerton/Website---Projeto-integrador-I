@@ -8,9 +8,11 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-end;
     display: flex;
+    padding: 10px 30px;
     background-color: ${Colors.primary};
-    height: 300px;
+    height: 340px;
     @media (max-width: 700px) {
+        padding:0;
         align-items: center;
         justify-content: center;
         min-height: 300px;
@@ -60,7 +62,7 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding-left: 30px;
+   padding: 10px;
     h2 {
         font-size: 16px;
         margin-bottom: 10px;

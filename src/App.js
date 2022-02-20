@@ -3,6 +3,8 @@ import Header from './compoenents/Header';
 import AppDetails from './compoenents/AppDetails';
 import DownloadApp from './compoenents/DownloadApp';
 import Apresentations from './compoenents/Apresentations';
+import Team from './compoenents/Team';
+import ProjectLinks from './compoenents/ProjectLinks';
 
 function App() {
     return (
@@ -11,6 +13,8 @@ function App() {
             <AppDetails />
             <DownloadApp />
             <Apresentations />
+            <Team/>
+            <ProjectLinks/>
         </div>
     );
 }
