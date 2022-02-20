@@ -9,7 +9,6 @@ export const Container = styled.div`
     border: 1px solid ${Colors.primary};
     display: flex;
     padding: 20px;
-
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
